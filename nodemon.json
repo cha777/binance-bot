@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "build"],
+  "verbose": true,
+  "watch": ["src/"],
+  "exec": "ts-node-esm",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "json,ts"
+}
